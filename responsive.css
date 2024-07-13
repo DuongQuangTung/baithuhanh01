@@ -1,0 +1,96 @@
+@media (max-width: 1200px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {
+    .overlay-banner {
+        padding: 10px;
+    }
+
+    .search-button img {
+        right: 0%;
+    }
+
+    .logo {
+        left: 35%;
+        width: 121px;
+        height: 84px;
+    }
+
+    .search-input {
+        display: none;
+    }
+    .navbar {
+        width: 375px;
+        height: 44px;
+    }
+    .nav-links a {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #333;
+    }
+    .nav-links1 a {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #333;
+    }
+    .hamburger {
+        display: flex;
+        position: relative;
+    }
+
+    .container-banner {
+        position: relative;
+        width: 100%;
+    }
+
+    .image-banner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .banner{
+        width: 425px;
+        height: 761px;
+        top: 63px;
+    }
+
+    .text-banner h1 {
+        font-size: 1em;
+        position: absolute;
+    }
+
+    .text-banner p {
+        font-size: 0.5em;
+        position: absolute;
+    }
+
+    .button-banner {
+        padding: 5px 10px;
+        position: absolute;
+    }
+
+    .info-section h1,
+    .contact-form h1 {
+        font-size: 1em;
+        align-items: center;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer-container {
+        align-items: center;
+    }
+}
